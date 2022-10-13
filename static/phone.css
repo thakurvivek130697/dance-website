@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+
+
+@media only screen and (min-width:300px) and (max-width:1150px) {
+    *{
+        margin:auto;
+        
+        padding:0px;
+        box-sizing:border-box;
+        
+    }
+    #introSection{
+        color: rgb(240, 248, 255);
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        background: center/cover no-repeat url('/static/bg1.jpg');
+        
+        font-family: 'Yeoung song', cursive;
+        font-size: 50px;
+    }
+    
+    .card{
+        border: 2px solid black;
+        border-radius:10px;
+        width:75%;;
+        margin:28px 146px;
+        height: 200px;
+        display:block;
+        background-color: rgb(244, 187, 140);
+    
+    
+    }
+    .card-box{
+        margin: auto;
+        align-items:center;
+        justify-content:space-between;
+    }
+    #sponsorsSection{
+        height:auto;
+        background-color: #d43b3b4d;
+        
+    }
+}
+
+@media (min-width:1150px) and (max-width:1500px) {
+    .card-box{
+        margin: auto;
+        align-items:center;
+        justify-content:space-between;
+    }
+    #missionSection{
+        height:auto;
+        width:67%;
+        margin:auto;
+
+        
+        
+    }
+    .card{
+        border: 2px solid black;
+        border-radius:10px;
+        width:75%;;
+        margin:28px 146px;
+        height: 200px;
+        display:block;
+        background-color: rgb(244, 187, 140);
+    
+    
+    }
+}

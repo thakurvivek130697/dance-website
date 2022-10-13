@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+	script(src="/static/index.js")
+
+block style
+	style
+		include ../static/style.css
+		include ../static/phone.css
+
+block content
+	
+
+	section#introSection
+		div Welcome to vivek's Dance Academy
+		div.small Eat Sleep dance Repeat
+	section#sponsorsSection
+		h2 Our Sponsors
+		div#sponsors
+			img(src="/static/image/logo1.png", alt="Sponsor image", class="spImage")
+			img(src="/static/image/logo2.png", alt="Sponsor image",class="spImage")
+			img(src="/static/image/logo3.png", alt="Sponsor image", class="spImage")
+			img(src="/static/image/logo4.png", alt="Sponsor image", class="spImage")
+	section#missionSection
+		h2 Our Mission
+
+		div.card
+			h3 Dance Perfection
+			div.card-box
+				div.card-img
+					img(src="/static/image/1.jpg")
+				div.card-content
+					p This is the best dance academy of the universe.
+		div.card
+			h3 Dance the way you like
+			div.card-box
+				div.card-img
+					img(src="/static/image/2.png")
+				div.card-content
+					p This is the best dance academy of the universe.
+		div.card
+			h3 Expert teaching
+			div.card-box
+				div.card-img
+					img(src="/static/image/3.jpg")
+				div.card-content
+					p This is the best dance academy of the universe.
